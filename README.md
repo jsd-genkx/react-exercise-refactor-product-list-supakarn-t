@@ -1,6 +1,6 @@
 ## Step-by-Step Instructions: <br>
 Step 1: Create the Main Application Component (App.jsx)<br>
-    ** Initialize State: Use useState to create a state variable for the list of products (products).**
+    _Initialize State: Use useState to create a state variable for the list of products (products)_ <br>
     const [products, setProducts] = useState([
         {
             id: "pid-1",
@@ -8,7 +8,7 @@ Step 1: Create the Main Application Component (App.jsx)<br>
             price: 10.0,
             image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIXzoYdO9tqmkjlVHmpgXnOsQb9DWkz_Mfi1Jc7zNzaw&s",
             isSelected: false,
-        },
+        },<br>
         {
             id: "pid-2",
             name: "Product 2",
@@ -16,7 +16,7 @@ Step 1: Create the Main Application Component (App.jsx)<br>
             image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIXzoYdO9tqmkjlVHmpgXnOsQb9DWkz_Mfi1Jc7zNzaw&s",
             isSelected: false,
         },
-    ])
+    ])<br>
 Step 2: Create the ProductList Component (ProductList.jsx)<br>
 Step 3: Create the ProductForm Component (ProductForm.jsx)<br>
 

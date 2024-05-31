@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	h1 {
+		@apply font-semibold;
+		@apply text-center;
+	}
+	h2 {
+		@apply text-2xl;
+		@apply font-semibold;
+		@apply text-center;
+		@apply pb-2;
+	}
+	h3 {
+		@apply text-2xl;
+		@apply font-semibold;
+	}
+	button {
+		@apply rounded-lg;
+	}
+	img {
+		@apply w-full;
+		@apply object-cover;
+	}
+	:hover {
+		@apply transition duration-300;
+	}
+	* {
+		@apply duration-300;
+		@apply text-ellipsis;
+	}
+}

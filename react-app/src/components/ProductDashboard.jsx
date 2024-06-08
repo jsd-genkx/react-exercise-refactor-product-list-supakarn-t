@@ -3,8 +3,6 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function ProductDashboard({ productList }) {
-	console.log(productList);
-
 	return (
 		<section
 			id="dashboard"
